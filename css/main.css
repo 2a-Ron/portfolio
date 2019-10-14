@@ -17,7 +17,7 @@ header {
 }
   
 header section {
-    width: 380px;
+    width: 100vw;
     margin: 0 auto;
 }
   
@@ -67,7 +67,7 @@ h2 {
   
 .centersec p {
     line-height: 26px;
-    height: 250px;
+    height: 225px;
     overflow: auto;
 }
   
