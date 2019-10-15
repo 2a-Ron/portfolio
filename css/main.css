@@ -1,9 +1,10 @@
 body {
     font-family: helvetica;
+    background-color: rgb(26, 25, 24);
 }
   
 a {
-    color: #86a74a;
+    color: #2e2e1c73;
     text-decoration: none;
 }
 
@@ -12,12 +13,12 @@ i {
   }
   
 header {
-    background: #324726;
+    background: #051c3070;
     height: 100px;
 }
   
 header section {
-    width: 100vw;
+    width: 380px;
     margin: 0 auto;
 }
   
@@ -61,6 +62,7 @@ img.center {
 h2 {
     margin-top: 20px;
     font-size: 22px;
+    color: #fff;
     text-decoration: underline;
     text-transform: capitalize;
 }
@@ -69,12 +71,13 @@ h2 {
     line-height: 26px;
     height: 225px;
     overflow: auto;
+    color: #fff;
 }
   
 button {
     border: none;
     border-radius: 10px;
-    background: #7a6233;
+    background: #294a57;
     color: #000;
     padding: 8px 20px;
     transition: 350ms all;
@@ -82,12 +85,12 @@ button {
 }
   
 button:hover {
-    background: #a1822b;
+    background: #00e1ff38;
     color: #fff;
 }
   
 footer {
-    background: #324726;
+    background: #051c3070;
     height: 100px;
     text-align: center;
     color: #fff;
