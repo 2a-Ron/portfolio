@@ -4,7 +4,7 @@ body {
 }
   
 a {
-    color: #2e2e1c73;
+    color: #62bee2;
     text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ button {
     border: none;
     border-radius: 10px;
     background: #294a57;
-    color: #000;
+    color: #62bee2;
     padding: 8px 20px;
     transition: 350ms all;
     cursor: pointer;
