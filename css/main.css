@@ -1,6 +1,6 @@
 body {
     font-family: helvetica;
-    background-color: rgb(26, 25, 24);
+    background-color: rgb(76, 78, 78);
 }
   
 a {
@@ -70,7 +70,8 @@ h2 {
 .centersec p {
     line-height: 26px;
     height: 225px;
-    overflow: auto;
+    /*
+    overflow: auto;*/
     color: #fff;
 }
   
@@ -93,13 +94,24 @@ button:hover {
     height: 60px;
     width: 60px;
 }
-  
-footer {
+ #footer-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+ }
+ 
+ footer {
     background: #051c3070;
     height: 100px;
     text-align: center;
     color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
+
 
 @media (min-width: 600px) {
     header section {
@@ -109,7 +121,7 @@ footer {
 
     main {
         width: 760px;
-        margin: 0 auto;
+        margin: 0 auto; 
     }
 
     main img {
@@ -122,7 +134,9 @@ footer {
         line-height: 1.5;
         width: 760px;
         margin: 0 auto;
+        /*
         overflow: auto;
+        */
         color: #fff;
     }
 }
